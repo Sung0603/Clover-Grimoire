@@ -1,0 +1,63 @@
+<resources>
+    <!-- ============================================================ -->
+    <!--  CLOVER GRIMOIRE — Recursos de Texto                          -->
+    <!-- ============================================================ -->
+
+    <!-- Configurações Gerais da Aplicação -->
+    <string name="app_name">Clover Grimoire</string>
+    <string name="app_tagline">Gerenciador e Ficha de RPG</string>
+
+    <!-- Navegação e Abas da Ficha -->
+    <string name="tab_character_info">Atributos</string>
+    <string name="tab_inventory">Inventário</string>
+    <string name="tab_grimoire">Magias</string>
+    <string name="tab_settings">Configurações</string>
+
+    <!-- Atributos do Personagem -->
+    <string name="lbl_attribute_strength">Força</string>
+    <string name="lbl_attribute_dexterity">Destreza</string>
+    <string name="lbl_attribute_constitution">Constituição</string>
+    <string name="lbl_attribute_intelligence">Inteligência</string>
+    <string name="lbl_attribute_wisdom">Sabedoria</string>
+    <string name="lbl_attribute_charisma">Carisma</string>
+
+    <!-- Status Vitais -->
+    <string name="lbl_health_points">Pontos de Vida</string>
+    <string name="lbl_mana_points">Pontos de Mana</string>
+    <string name="lbl_defense">Defesa Passiva</string>
+
+    <!-- Formatações Dinâmicas (Uso de Argumentos) -->
+    <!-- Exemplo no Kotlin: getString(R.string.fmt_modifier, 3) -> "+3" -->
+    <string name="fmt_modifier">%+d</string>
+    <string name="fmt_stat_fraction">%1$d / %2$d</string>
+    <string name="fmt_dice_roll_result">Resultado: %1$d (%2$s)</string>
+    <string name="fmt_character_subtitle">%1$s • Nível %2$d</string>
+
+    <!-- Rolador de Dados -->
+    <string name="title_dice_roller">Rolador de Grimório</string>
+    <string name="btn_roll_dice">Rolar Dados</string>
+    <string name="hint_dice_formula">Ex: 2d6 + 3</string>
+
+    <!-- Textos do Inventário e Plurais -->
+    <plurals name="fmt_item_count">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d itens</item>
+    </plurals>
+    <string name="fmt_weight_kg">%.1f kg</string>
+
+    <!-- Dicas e Inputs (Hints) -->
+    <string name="hint_character_name">Nome do Personagem</string>
+    <string name="hint_character_class">Classe ou Origem</string>
+
+    <!-- Diálogos e Ações -->
+    <string name="btn_save">Salvar Alterações</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_delete">Excluir Personagem</string>
+    <string name="dialog_delete_title">Confirmar Exclusão</string>
+    <string name="dialog_delete_message">Tem certeza que deseja apagar a ficha de %s? Esta ação não pode ser desfeita.</string>
+
+    <!-- Acessibilidade (contentDescription para leitores de tela) -->
+    <string name="cd_avatar_image">Foto de perfil do personagem</string>
+    <string name="cd_dice_icon">Ícone de rolagem de dados</string>
+    <string name="cd_add_item">Adicionar novo item ao inventário</string>
+</resources>

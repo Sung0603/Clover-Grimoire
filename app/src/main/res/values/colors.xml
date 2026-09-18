@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    CLOVER GRIMOIRE — Paleta de Cores
+    Duas identidades visuais no mesmo arquivo: Grimório Diurno e Grimório Noturno.
+    Os tokens semânticos (prefixo diurno_/noturno_) serão consumidos pelo themes.xml.
+-->
+<resources>
+
+    <!-- ============================================================ -->
+    <!-- ======================  GRIMÓRIO DIURNO  ==================== -->
+    <!-- Base: branco, dourado e azul royal. Sensação de pergaminho.   -->
+    <!-- ============================================================ -->
+
+    <!-- Paleta bruta (swatches) -->
+
+    <!-- Branco / neutros claros -->
+    <color name="diurno_white">#FFFFFF</color>
+    <color name="diurno_parchment">#FAF6EC</color>      <!-- fundo com leve tom de papel -->
+    <color name="diurno_parchment_elevated">#FFFDF6</color> <!-- superfície elevada, quase branco -->
+
+    <!-- Dourado -->
+    <color name="diurno_gold_100">#F5E9C4</color>
+    <color name="diurno_gold_300">#E3C77A</color>
+    <color name="diurno_gold_500">#C9A227</color>       <!-- dourado principal -->
+    <color name="diurno_gold_700">#9C7A16</color>       <!-- dourado escuro / pressed -->
+
+    <!-- Azul royal -->
+    <color name="diurno_blue_100">#C7D6EC</color>
+    <color name="diurno_blue_300">#5B7FAF</color>
+    <color name="diurno_blue_500">#1D3F72</color>       <!-- azul principal -->
+    <color name="diurno_blue_700">#142B4E</color>       <!-- azul escuro / pressed -->
+
+    <!-- Tinta (texto) -->
+    <color name="diurno_ink_900">#1B1B1F</color>        <!-- texto principal -->
+    <color name="diurno_ink_500">#6E6C66</color>        <!-- texto secundário -->
+    <color name="diurno_ink_100">#E7E2D5</color>        <!-- divisores / bordas suaves -->
+
+    <!-- Estado -->
+    <color name="diurno_error">#B3261E</color>
+    <color name="diurno_success">#3C7A4B</color>
+    <color name="diurno_warning">#B8860B</color>
+
+    <!-- Tokens semânticos (Diurno) -->
+    <color name="diurno_primary_color">@color/diurno_gold_500</color>
+    <color name="diurno_primary_variant_color">@color/diurno_gold_700</color>
+    <color name="diurno_on_primary_color">@color/diurno_ink_900</color>
+
+    <color name="diurno_secondary_color">@color/diurno_blue_500</color>
+    <color name="diurno_secondary_variant_color">@color/diurno_blue_700</color>
+    <color name="diurno_on_secondary_color">@color/diurno_white</color>
+
+    <color name="diurno_background_color">@color/diurno_parchment</color>
+    <color name="diurno_on_background_color">@color/diurno_ink_900</color>
+
+    <color name="diurno_surface_color">@color/diurno_white</color>
+    <color name="diurno_on_surface_color">@color/diurno_ink_900</color>
+    <color name="diurno_surface_elevated_color">@color/diurno_parchment_elevated</color>
+
+    <color name="diurno_text_primary">@color/diurno_ink_900</color>
+    <color name="diurno_text_secondary">@color/diurno_ink_500</color>
+
+    <color name="diurno_divider_color">@color/diurno_ink_100</color>
+    <color name="diurno_outline_color">@color/diurno_gold_300</color>
+
+    <color name="diurno_error_color">@color/diurno_error</color>
+    <color name="diurno_on_error_color">@color/diurno_white</color>
+    <color name="diurno_success_color">@color/diurno_success</color>
+    <color name="diurno_warning_color">@color/diurno_warning</color>
+
+    <color name="diurno_status_bar_color">@color/diurno_blue_700</color>
+
+
+    <!-- ============================================================ -->
+    <!-- ======================  GRIMÓRIO NOTURNO  =================== -->
+    <!-- Base: preto, vermelho vinho e cinza chumbo. Sensação de couro -->
+    <!-- envelhecido e magia sombria.                                  -->
+    <!-- ============================================================ -->
+
+    <!-- Paleta bruta (swatches) -->
+
+    <!-- Vermelho vinho -->
+    <color name="noturno_red_100">#E7B4B8</color>
+    <color name="noturno_red_300">#B5525C</color>
+    <color name="noturno_red_500">#8E1F2B</color>       <!-- vermelho principal -->
+    <color name="noturno_red_700">#5E1319</color>       <!-- vermelho escuro / pressed -->
+
+    <!-- Cinza chumbo -->
+    <color name="noturno_graphite_100">#4A4A4A</color>
+    <color name="noturno_graphite_300">#2E2E2E</color>
+    <color name="noturno_graphite_500">#1C1C1C</color>  <!-- superfície principal -->
+    <color name="noturno_graphite_700">#141414</color>  <!-- superfície elevada -->
+
+    <!-- Preto / claros de texto -->
+    <color name="noturno_black">#0D0D0D</color>         <!-- fundo -->
+    <color name="noturno_bone_100">#F2EFE8</color>       <!-- texto principal (marfim) -->
+    <color name="noturno_bone_500">#A6A29B</color>       <!-- texto secundário -->
+
+    <!-- Estado -->
+    <color name="noturno_error">#FF7A59</color>
+    <color name="noturno_success">#5FA875</color>
+    <color name="noturno_warning">#D9A441</color>
+
+    <!-- Tokens semânticos (Noturno) -->
+    <color name="noturno_primary_color">@color/noturno_red_500</color>
+    <color name="noturno_primary_variant_color">@color/noturno_red_700</color>
+    <color name="noturno_on_primary_color">@color/noturno_bone_100</color>
+
+    <color name="noturno_secondary_color">@color/noturno_graphite_100</color>
+    <color name="noturno_secondary_variant_color">@color/noturno_graphite_300</color>
+    <color name="noturno_on_secondary_color">@color/noturno_bone_100</color>
+
+    <color name="noturno_background_color">@color/noturno_black</color>
+    <color name="noturno_on_background_color">@color/noturno_bone_100</color>
+
+    <color name="noturno_surface_color">@color/noturno_graphite_500</color>
+    <color name="noturno_on_surface_color">@color/noturno_bone_100</color>
+    <color name="noturno_surface_elevated_color">@color/noturno_graphite_700</color>
+
+    <color name="noturno_text_primary">@color/noturno_bone_100</color>
+    <color name="noturno_text_secondary">@color/noturno_bone_500</color>
+
+    <color name="noturno_divider_color">@color/noturno_graphite_300</color>
+    <color name="noturno_outline_color">@color/noturno_red_700</color>
+
+    <color name="noturno_error_color">@color/noturno_error</color>
+    <color name="noturno_on_error_color">@color/noturno_black</color>
+    <color name="noturno_success_color">@color/noturno_success</color>
+    <color name="noturno_warning_color">@color/noturno_warning</color>
+
+    <color name="noturno_status_bar_color">@color/noturno_black</color>
+
+</resources>

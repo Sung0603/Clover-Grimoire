@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Atributos customizados para a paleta do Clover Grimoire -->
+    <attr name="colorSurfaceElevated" format="color" />
+    <attr name="colorDivider" format="color" />
+    <attr name="colorOutlineCustom" format="color" />
+    <attr name="colorSuccess" format="color" />
+    <attr name="colorWarning" format="color" />
+</resources>

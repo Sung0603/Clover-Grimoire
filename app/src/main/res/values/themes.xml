@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema Base: Clover Grimoire Diurno -->
+    <style name="Theme.CloverGrimoire" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Cores Primárias (Dourado) -->
+        <item name="colorPrimary">@color/diurno_primary_color</item>
+        <item name="colorPrimaryVariant">@color/diurno_primary_variant_color</item>
+        <item name="colorOnPrimary">@color/diurno_on_primary_color</item>
+
+        <!-- Cores Secundárias (Azul Royal) -->
+        <item name="colorSecondary">@color/diurno_secondary_color</item>
+        <item name="colorSecondaryVariant">@color/diurno_secondary_variant_color</item>
+        <item name="colorOnSecondary">@color/diurno_on_secondary_color</item>
+
+        <!-- Superfície e Fundo (Pergaminho) -->
+        <item name="android:colorBackground">@color/diurno_background_color</item>
+        <item name="colorOnBackground">@color/diurno_on_background_color</item>
+        <item name="colorSurface">@color/diurno_surface_color</item>
+        <item name="colorOnSurface">@color/diurno_on_surface_color</item>
+
+        <!-- Estados de Erro/Alerta -->
+        <item name="colorError">@color/diurno_error_color</item>
+        <item name="colorOnError">@color/diurno_on_error_color</item>
+
+        <!-- Barras de Sistema -->
+        <item name="android:statusBarColor">@color/diurno_status_bar_color</item>
+        <item name="android:windowLightStatusBar">false</item> <!-- Texto claro na StatusBar escura (Azul) -->
+
+        <!-- Mapeamento dos Atributos Customizados -->
+        <item name="colorSurfaceElevated">@color/diurno_surface_elevated_color</item>
+        <item name="colorDivider">@color/diurno_divider_color</item>
+        <item name="colorOutlineCustom">@color/diurno_outline_color</item>
+        <item name="colorSuccess">@color/diurno_success_color</item>
+        <item name="colorWarning">@color/diurno_warning_color</item>
+
+    </style>
+</resources>

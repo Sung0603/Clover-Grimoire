@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema Base: Clover Grimoire Noturno -->
+    <style name="Theme.CloverGrimoire" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Cores Primárias (Vermelho Vinho) -->
+        <item name="colorPrimary">@color/noturno_primary_color</item>
+        <item name="colorPrimaryVariant">@color/noturno_primary_variant_color</item>
+        <item name="colorOnPrimary">@color/noturno_on_primary_color</item>
+
+        <!-- Cores Secundárias (Grafite) -->
+        <item name="colorSecondary">@color/noturno_secondary_color</item>
+        <item name="colorSecondaryVariant">@color/noturno_secondary_variant_color</item>
+        <item name="colorOnSecondary">@color/noturno_on_secondary_color</item>
+
+        <!-- Superfície e Fundo (Couro / Couro Escuro) -->
+        <item name="android:colorBackground">@color/noturno_background_color</item>
+        <item name="colorOnBackground">@color/noturno_on_background_color</item>
+        <item name="colorSurface">@color/noturno_surface_color</item>
+        <item name="colorOnSurface">@color/noturno_on_surface_color</item>
+
+        <!-- Estados de Erro/Alerta -->
+        <item name="colorError">@color/noturno_error_color</item>
+        <item name="colorOnError">@color/noturno_on_error_color</item>
+
+        <!-- Barras de Sistema -->
+        <item name="android:statusBarColor">@color/noturno_status_bar_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Mapeamento dos Atributos Customizados -->
+        <item name="colorSurfaceElevated">@color/noturno_surface_elevated_color</item>
+        <item name="colorDivider">@color/noturno_divider_color</item>
+        <item name="colorOutlineCustom">@color/noturno_outline_color</item>
+        <item name="colorSuccess">@color/noturno_success_color</item>
+        <item name="colorWarning">@color/noturno_warning_color</item>
+
+    </style>
+</resources>
