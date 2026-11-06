@@ -1,12 +1,11 @@
+
 plugins {
     alias(libs.plugins.android.application)
 }
 
 android {
     namespace = "com.example.clovergrimoire"
-
-    // Mantenha como estava originalmente para cobrir os requisitos das bibliotecas
-    compileSdk = 36 // Ou use a sintaxe original: compileSdk { version = release(37) }
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.clovergrimoire"
@@ -25,6 +24,7 @@ android {
             }
         }
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
@@ -37,12 +37,11 @@ dependencies {
     implementation(libs.constraintlayout)
     implementation(libs.material)
 
-    // --- DEPENDÊNCIAS DO ROOM ---
     val roomVersion = "2.6.1"
+
     implementation("androidx.room:room-runtime:$roomVersion")
     annotationProcessor("androidx.room:room-compiler:$roomVersion")
 
-    // --- DEPENDÊNCIA DO GSON ---
     implementation("com.google.code.gson:gson:2.10.1")
 
     testImplementation(libs.junit)
